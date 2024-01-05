@@ -1,0 +1,17 @@
+package-as: AdiBags_UpgradeTrack
+enable-nolib-creation: no
+
+required-dependencies:
+  - adibags
+
+manual-changelog:
+    filename: CHANGELOG.md
+    markup-type: markdown
+
+ignore:
+    - CHANGELOG.md
+    - README.md
+    - .github
+    - create_db.py
+    - image.png
+    - Database.template

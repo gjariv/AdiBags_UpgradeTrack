@@ -3,9 +3,15 @@
 ## Title: AdiBags - Upgrade Track
 ## Notes: Adds an upgrade track filter to AdiBags.
 ## Author: gjariv
-## Version: 1.0.1
+## Version: @project-version@
 
 ## Dependencies: AdiBags
+
+## X-Date: @project-date-iso@
+## X-Category: Bags & Inventory
+## X-License: MIT
+
+## X-Curse-Project-ID: 958290
 
 Localization.lua
 Database.lua
