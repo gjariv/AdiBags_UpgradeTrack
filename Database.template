@@ -1,0 +1,12 @@
+local _, addon = ...
+local L = addon.L
+
+local trackIds = {}
+
+addon.trackIds = trackIds
+
+{% for track, bonuses in track_ids.items() -%}
+{% for bonus in bonuses -%}
+trackIds["{{ bonus }}"] = L["{{ track }}"]
+{% endfor -%}
+{% endfor -%}

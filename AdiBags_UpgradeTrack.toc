@@ -3,9 +3,10 @@
 ## Title: AdiBags - Upgrade Track
 ## Notes: Adds an upgrade track filter to AdiBags.
 ## Author: gjariv
-## Version: 1.0.0
+## Version: 1.0.1
 
 ## Dependencies: AdiBags
 
 Localization.lua
+Database.lua
 AdiBags_UpgradeTrack.lua
